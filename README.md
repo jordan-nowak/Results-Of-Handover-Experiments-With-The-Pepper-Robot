@@ -89,6 +89,7 @@ So, in a first step we perform 12 transfers which will allow us to find the zone
 |      5       | 86  | 184  |   86   |  4   |  4   |  3   |  3   |  4   |  3   |  2   |  4   |  4   |   3   |   4   |   5   |
 |      6       | 99  | 164  |   52   |  3   |  4   |  4   |  4   |  5   |  2   |  3   |  5   |  4   |   4   |   3   |   5   |
 |      7       | 89  | 165  |   44   |  4   |  4   |  4   |  3   |  4   |  4   |  3   |  5   |  3   |   2   |   5   |   4   |
+
 \*tf.: transfer
 
 #### Average and standard deviation
@@ -143,6 +144,9 @@ Informed consent was obtained from all subjects involved in the study.
 
 ##  Publication
 In progress...
+- **Title:** *Design of Comfortable Robot-to-Human Handovers for Assistance to Older Adults*
+- **Authors:** *Jordan Nowak, Philippe Fraisse, Andrea Cherubini and Jean-Pierre Daures*
 
 ##  About authors
-*Results-Of-Handover-Experiments-With-The-Pepper-Robot* was written by: Jordan NOWAK (Clinique Beau Soleil of Montpellier - LIRMM)
+*Results-Of-Handover-Experiments-With-The-Pepper-Robot* was written by:
+- *Jordan NOWAK* - <cite>Clinique Beau Soleil of Montpellier -- Aesio Santé -- Laboratoire d'Informatique, de Robotique et de Microélectronique de Montpellier (LIRMM) -- University of Montpellier</cite>
