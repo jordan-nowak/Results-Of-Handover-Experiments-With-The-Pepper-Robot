@@ -145,8 +145,8 @@ Informed consent was obtained from all subjects involved in the study.
 ##  Publication
 In progress...
 - **Title:** *Design of Comfortable Robot-to-Human Handovers for Assistance to Older Adults*
-- **Authors:** *Jordan Nowak, Philippe Fraisse, Andrea Cherubini and Jean-Pierre Daures*
+- **Authors:** *Jordan Nowak, Philippe Fraisse, Andrea Cherubini and Jean-Pierre Daurès*
 
 ##  About authors
-*Results-Of-Handover-Experiments-With-The-Pepper-Robot* was written by:
-- *Jordan NOWAK* - <cite>Clinique Beau Soleil of Montpellier -- Aesio Santé -- Laboratoire d'Informatique, de Robotique et de Microélectronique de Montpellier (LIRMM) -- University of Montpellier</cite>
+This repository was written by:
+- *Jordan NOWAK* - <cite>Clinique Beau Soleil of Montpellier - Aesio Santé - Laboratoire d'Informatique, de Robotique et de Microélectronique de Montpellier (LIRMM) - University of Montpellier</cite>
