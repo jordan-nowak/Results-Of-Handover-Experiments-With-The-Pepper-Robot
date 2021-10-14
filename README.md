@@ -75,8 +75,7 @@ What do you think about the relevance of the study?
 ### Description
 The second experimentation is more concrete: we retest our algorithms and especially we had the opportunity to do this directly in a nursing home room with residents. For a better estimation of the preferences, we performed this time four transfers per generated zone. This brings the number of transfers to twelve because we focus this time on only three different zones.
 
-So, in a first step we perform 12 transfers which will allow us to find the zone preferred by the person. Then in a second step we make 4 transfers (with this chosen zone) by making the Pepper robot navigate to the edge of the bed, where the person is. This is possible thanks to the geolocation from the <cite>[ArUco][3]</cite> marker.
-[3]: https://www.uco.es/investiga/grupos/ava/node/26
+So, in a first step we perform 12 transfers which will allow us to find the zone preferred by the person. Then in a second step we make 4 transfers (with this chosen zone) by making the Pepper robot navigate to the edge of the bed, where the person is. This is possible thanks to the geolocation from the [ArUco](https://www.uco.es/investiga/grupos/ava/node/26) marker.
 
 ### Transfer satisfaction
 #### Answers
