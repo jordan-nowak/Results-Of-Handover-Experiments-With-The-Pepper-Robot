@@ -50,21 +50,21 @@ Do you have any apprehensions about the experiment to be carried out?
 
 | Personne no. |   1   |   2   |   3   |   4   |   5   |   6   |   7   |   8   |
 |:------------:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|              |  Non  |  Non  |  Non  |  Non  |  Non  |  Non  |  Non  |  Non  |
+|              |  No   |  No   |  No   |  No   |  No   |  No   |  No   |  No   |
 
-Were you surprised by the robot's approach to movement?
+Were you surprised by the robot's approach to movement? (from "Very surprised"=1 to "Not at all surprised"=5)
 
 | Personne no. |   1   |   2   |   3   |   4   |   5   |   6   |   7   |   8   | Average | Standard deviation |
 |:------------:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-------:|:------------------:|
 |  Note (/5)   |   4   |   4   |   5   |   2   |   5   |   2   |   4   |   4   |  3.75   |        1.16        |
 
-Overall, how would you judge the distance between you and the robot?
+Overall, how would you judge the distance between you and the robot? (from "Very unacceptable"=1 to "Very acceptable"=5)
 
 | Personne no. |   1   |   2   |   3   |   4   |   5   |   6   |   7   |   8   | Average | Standard deviation |
 |:------------:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-------:|:------------------:|
 |  Note (/5)   |   5   |   4   |   4   |   4   |   4   |   4   |   4   |   4   |  4.13   |        0.35        |
 
-What do you think about the relevance of the study?
+What do you think about the relevance of the study? (from "Not at all relevant"=1 to "Quite relevant"=5)
 
 | Personne no. |   1   |   2   |   3   |   4   |   5   |   6   |   7   |   8   | Average | Standard deviation |
 |:------------:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-------:|:------------------:|
@@ -77,6 +77,8 @@ The second experimentation is more concrete: we retest our algorithms and especi
 
 So, in a first step we perform 12 transfers which will allow us to find the zone preferred by the person. Then in a second step we make 4 transfers (with this chosen zone) by making the Pepper robot navigate to the edge of the bed, where the person is. This is possible thanks to the geolocation from the [ArUco](https://www.uco.es/investiga/grupos/ava/node/26) marker.
 
+The first 7 volunteers are residents of the nursing home. The following people are younger people from outside the nursing home who have agreed to participate in the experiment.
+
 ### Transfer satisfaction
 #### Answers
 | Personne no. | Age | Size | weight | tf*.1 | tf.2 | tf.3 | tf.4 | tf.5 | tf.6 | tf.7 | tf.8 | tf.9 | tf.10 | tf.11 | tf.12 |
@@ -84,19 +86,26 @@ So, in a first step we perform 12 transfers which will allow us to find the zone
 |      1       | 95  | 170  |   68   |  4   |  4   |  4   |  3   |  3   |  3   |  3   |  4   |  4   |   3   |   3   |   2   |
 |      2       | 96  | 162  |   54   |  4   |  4   |  4   |  4   |  4   |  4   |  4   |  4   |  4   |   4   |   4   |   4   |
 |      3       | 89  | 154  |   64   |  4   |  4   |  2   |  4   |  4   |  4   |  4   |  4   |  3   |   4   |   3   |   3   |
-|      4       | 83  | 163  |   53   |  4   |  3   |  4   |  2   |  4   |  4   |  3   |  2   |  1   |   3   |   4   |   2   |
+|      4       | 89  | 163  |   53   |  4   |  3   |  4   |  2   |  4   |  4   |  3   |  2   |  1   |   3   |   4   |   2   |
 |      5       | 86  | 184  |   86   |  4   |  4   |  3   |  3   |  4   |  3   |  2   |  4   |  4   |   3   |   4   |   5   |
 |      6       | 99  | 164  |   52   |  3   |  4   |  4   |  4   |  5   |  2   |  3   |  5   |  4   |   4   |   3   |   5   |
 |      7       | 89  | 165  |   44   |  4   |  4   |  4   |  3   |  4   |  4   |  3   |  5   |  3   |   2   |   5   |   4   |
+|	     8 	     | 21  | 169 	|   78 	 | 5 	  |  4   |  4   |  4   |  3   |  3   |  4   |  4   |  4   |   3   |   3   |   5   |
+|	     9 	     | 42  | 182 	|   80 	 | 4 	  |  5   |  5   |  5   |  3   |  4   |  4   |  4   |  4   |   3   |   5   |   5   |
+|	     10      | 31  | 175 	|   65 	 | 4 	  |  4   |  4   |  2   |  4   |  3   |  3   |  4   |  4   |   5   |   4   |   5   |
+|	     11      | 27  | 180 	|   90 	 | 3 	  |  4   |  3   |  2   |  2   |  2   |  3   |  4   |  1   |   1   |   1   |   3   |
+|	     12 	   | 62  | 173 	|   79 	 | 5 	  |  4   |  4   |  4   |  5   |  4   |  4   |  5   |  3   |   3   |   4   |   5   |
 
 \*tf.: transfer
 
 #### Average and standard deviation
-| Personne no. |        1        |        2        |        3        |        4        |        5        |        6        |        7        |
-|:------------:|:---------------:|:---------------:|:---------------:|:---------------:|:---------------:|:---------------:|:---------------:|
-|  Zone no.1   |   3.25 ± 0.96   |   4.00 ± 0.00   |   3.75 ± 0.50   |   3.00 ± 1.15   |   4.25 ± 0.50   |   4.50 ± 1.00   |   4.25 ± 0.50   |
-|  Zone no.2   |   3.50 ± 0.58   |   4.00 ± 0.00   |   3.25 ± 0.96   |   3.75 ± 0.50   |   3.50 ± 0.58   |   3.25 ± 0.96   |   4.25 ± 0.50   |
-|  Zone no.3   |   3.25 ± 0.50   |   4.00 ± 0.00   |   3.75 ± 0.50   |   2.25 ± 0.96   |   3.00 ± 0.82   |   3.75 ± 0.50   |   2.75 ± 0.50   |
+| Personne no. |        1        |        2        |        3        |        4        |        5        |        6        |        7        |        8        |        9        |        10       |        11       |        12       |
+|:------------:|:---------------:|:---------------:|:---------------:|:---------------:|:---------------:|:---------------:|:---------------:|:---------------:|:---------------:|:---------------:|:---------------:|:---------------:|
+|  Zone no.1   |   3.25 ± 0.96   |   4.00 ± 0.00   |   3.75 ± 0.50   |   3.00 ± 1.15   |   4.25 ± 0.50   |   4.50 ± 1.00   |   4.25 ± 0.50   |   4.25 ± 0.96	 |   4.00 ± 0.82 	 |   4.25 ± 0.50   |   3.00 ± 0.82	 |   5.00 ± 0.00   |
+|  Zone no.2   |   3.50 ± 0.58   |   4.00 ± 0.00   |   3.25 ± 0.96   |   3.75 ± 0.50   |   3.50 ± 0.58   |   3.25 ± 0.96   |   4.25 ± 0.50   |   3.75 ± 0.50   |   4.00 ± 0.82 	 |   3.50 ± 1.29   |   1.75 ± 0.96	 |   3.50 ± 0.58   |
+|  Zone no.3   |   3.25 ± 0.50   |   4.00 ± 0.00   |   3.75 ± 0.50   |   2.25 ± 0.96   |   3.00 ± 0.82   |   3.75 ± 0.50   |   2.75 ± 0.50   |   3.50 ± 0.58	 |   4.75 ± 0.50 	 |   3.75 ± 0.50   |   2.50 ± 1.29	 |   4.00 ± 0.00   |
+
+For the 7 residents:
 
 |           | Average | Standard deviation |
 |:---------:|:-------:|:------------------:|
@@ -105,6 +114,15 @@ So, in a first step we perform 12 transfers which will allow us to find the zone
 | Zone no.2 |  3.643  |        0.678       |
 | Zone no.3 |  3.250  |        0.799       |
 
+For all volunteers:
+
+|           | Average | Standard deviation |
+|:---------:|:-------:|:------------------:|
+| Age       |  68.83  |        30.28       |
+| Zone no.1 |  3.96   |        0.87        |
+| Zone no.2 |  3.67   |        0.81        |
+| Zone no.3 |  3.27   |        0.94        |
+
 #### Result
 <p align="center"> <img src="data/histogram/histogram_v2.png" alt="histo_V2" width="400"/> </p>
 <p align="center"> Histogram showing the scores, out of 5, for each area generated in the second experiment. </p>
@@ -112,27 +130,27 @@ So, in a first step we perform 12 transfers which will allow us to find the zone
 ### Other questions
 Do you have any apprehensions about the experiment to be carried out?
 
-| Personne no. |   1   |   2   |   3   |   4   |   5   |   6   |   7   |
-|:------------:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|              |  Non  |  Oui  |  Non  |  Non  |  Non  |  Non  |  Non  |
+| Personne no. |   1   |   2   |   3   |   4   |   5   |   6   |   7   |   8   |   9   |   10  |   11  |   12  |
+|:------------:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|              |  No   |  Yes  |  No   |  No   |  No   |  No   |  No   |  No   |  No   |  No   |  No   |  No   |
 
-Were you surprised by the robot's approach to movement?
+Were you surprised by the robot's approach to movement? (from "Very surprised"=1 to "Not at all surprised"=5)
 
-| Personne no. |   1   |   2   |   3   |   4   |   5   |   6   |   7   | Average | Standard deviation |
-|:------------:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-------:|:------------------:|
-|  Note (/5)   |   5   |   5   |   4   |   5   |   5   |   5   |   5   |  4.86   |        1.75        |
+| Personne no. |   1   |   2   |   3   |   4   |   5   |   6   |   7   |   8   |   9   |   10  |   11  |   12  | Average | Standard deviation |
+|:------------:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-------:|:------------------:|
+|  Note (/5)   |   5   |   5   |   4   |   5   |   5   |   5   |   5   |   5   |   4   |   4   |   4   |   4   |  4.58   |        0.51        |
 
-Overall, how would you judge the distance between you and the robot?
+Overall, how would you judge the distance between you and the robot? (from "Very unacceptable"=1 to "Very acceptable"=5)
 
-| Personne no. |   1   |   2   |   3   |   4   |   5   |   6   |   7   | Average | Standard deviation |
-|:------------:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-------:|:------------------:|
-|  Note (/5)   |   5   |   5   |   4   |   5   |   4   |   3   |   4   |  4.29   |        1.67        |
+| Personne no. |   1   |   2   |   3   |   4   |   5   |   6   |   7   |   8   |   9   |   10  |   11  |   12  | Average | Standard deviation |
+|:------------:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-------:|:------------------:|
+|  Note (/5)   |   5   |   5   |   4   |   5   |   4   |   3   |   4   |   5   |   5   |   4   |   5   |   5   |  4.50   |        0.67        |
 
-What do you think about the relevance of the study?
+What do you think about the relevance of the study? (from "Not at all relevant"=1 to "Quite relevant"=5)
 
-| Personne no. |   1   |   2   |   3   |   4   |   5   |   6   |   7   | Average | Standard deviation |
-|:------------:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-------:|:------------------:|
-|  Note (/5)   |   3   |   4   |   3   |   3   |   4   |   3   |   3   |  3.29   |        1.25        |
+| Personne no. |   1   |   2   |   3   |   4   |   5   |   6   |   7   |   8   |   9   |   10  |   11  |   12  | Average | Standard deviation |
+|:------------:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-------:|:------------------:|
+|  Note (/5)   |   3   |   4   |   3   |   3   |   4   |   3   |   3   |   5   |   4   |   5   |   4   |   5   |  3.83   |        0.83        |
 
 ### Video Available
 A video can be found [here](http://bit.do/Handover-Experiment-With-The-Pepper-Robot) and summarises the whole experiment carried out in the nursing home room.
